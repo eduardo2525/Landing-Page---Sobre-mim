@@ -1,25 +1,71 @@
 .event {
     padding: 80px 0;
-    background-image: linear-gradient(#1B6CA7, #442BDB);
+    
+    width: 1366px;
+    height: 377px;
+    margin: 0 auto;
+
+    &__Meliodas {
+        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+    }
+    &__Ban {
+        background-image: linear-gradient(360deg, #1B6CA7, #442BDB);
+    }
+    &__Harlequim {
+        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+    }
+    &__Gowther {
+        background-image: linear-gradient(360deg, #1B6CA7, #442BDB);
+    }
+    &__Diane {
+        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+    }
+    &__Merlin {
+        background-image: linear-gradient(360deg, #1B6CA7, #442BDB);
+    }
+    &__Escanor {
+        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+    }
+
     .container {
         display: flex;
     }
-
 
     &__description {
         margin-right: 40px;
 
         &__title {
-        font-size: 18px;
+        font-size: 26px;
+        font-family: Roboto, sans-serif;
         font-weight: bold;
+        color: #FFFFFF;
+        margin-left: 203px;
         margin-bottom: 16px;
     }
+
+    span {
+        color: white;
+        font-size: 22px;
+        margin-left: 203px;
+        border-bottom: 1px solid black;
+    }
+
         &__text {
         line-height: 22px;
+        margin-top: 10px;
+        margin-left: 203px;
+        margin-right: 40px;
+        color: #FFFFFF;
+        font-weight: regular;
     }
     }
 
     &__imagem {
         max-width: 360px;
+        margin-right: 202px;
+
+        &:nth-child(2) {
+            height: 250px;
+        }
     }
 }
