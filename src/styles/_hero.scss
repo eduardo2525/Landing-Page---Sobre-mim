@@ -1,5 +1,7 @@
+@use 'variables';
+
 .hero {
-    width: 1366px;
+    width: variables.$container;
     height: 561px;
     margin: 0 auto;
     position: relative;
@@ -22,7 +24,7 @@
         padding: 203px 0px 244px 0px;
         font-size: 40px;
         font-family: Roboto, sans-serif;
-        color: rgb(2, 2, 2);
+        color: variables.$textColorprimary;
     }
 }
 

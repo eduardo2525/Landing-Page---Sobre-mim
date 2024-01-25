@@ -1,30 +1,32 @@
+@use 'variables';
+
 .event {
     padding: 80px 0;
     
-    width: 1366px;
+    width: variables.$container;
     height: 377px;
     margin: 0 auto;
 
     &--Meliodas {
-        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(180deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--Ban {
-        background-image: linear-gradient(360deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(360deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--Harlequim {
-        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(180deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--Gowther {
-        background-image: linear-gradient(360deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(360deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--Diane {
-        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(180deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--Merlin {
-        background-image: linear-gradient(360deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(360deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--Escanor {
-        background-image: linear-gradient(180deg, #1B6CA7, #442BDB);
+        background-image: linear-gradient(180deg, variables.$linearPrimary, variables.$linearSecundary);
     }
     &--image-left {
         .container {
@@ -54,13 +56,13 @@
         font-size: 26px;
         font-family: Roboto, sans-serif;
         font-weight: bold;
-        color: #FFFFFF;
+        color: variables.$textColorSecundary;
         margin-left: 203px;
         margin-bottom: 16px;
     }
 
     span {
-        color: white;
+        color: variables.$textColorSecundary;
         font-size: 22px;
         margin-left: 203px;
         border-bottom: 1px solid black;
@@ -71,7 +73,7 @@
         margin-top: 10px;
         margin-left: 203px;
         margin-right: 40px;
-        color: #FFFFFF;
+        color: variables.$textColorSecundary;
         font-weight: regular;
     }
     }
